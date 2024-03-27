@@ -24,46 +24,36 @@
 * 使用 Bootstrap 提供基本的使用者介面
 
 *想看我更多的專案可以去這👉https://github.com/1104030360*
-# 內容
-## 角色劃分：
-### 管理者分為兩種角色：館長和館員。
-## 權限與決策：
-  館長有權決定圖書館的休息時間和館員的月薪。
-
-  館員負責執行日常管理任務，但是不具備調整休息時間或者自行調整薪資的權限。
-  
-## 管理者任務
-### 館長任務：
-  設定圖書館的休息時間。
-  
-  設定館員的月薪。
-### 館員任務：
-  圖書館日常管理任務，借還書的處理、圖書館內部維護。
-
-## 借閱者功能：
-### 角色劃分：
-  借閱者分為會員和非會員。
-### 功能區分：
-  會員可能享有一些額外的特權，如更長的借閱期限或更多的借閱數量。
-### 查閱圖書功能：
-  非會員也可以使用系統查詢圖書館的藏書。
 
 
-
-## Build
-
-```sh
-javac -encoding UTF-8 *.java
+# Usage
+1.啟動 Django 開發伺服器：
+ ```sh
+python manage.py runserver
 ```
+2.瀏覽器中打開 http://localhost:8000/ 以訪問應用程式。
 
-## Usage
+3.您可以通過在導航欄中點擊 "註冊" 鏈接來註冊新使用者。
 
-```sh
-java Main
-```
+4.註冊後，您可以使用導航欄中的 "登入" 鏈接登入。
+
+5.登入後，您將可以看到一個包含您的名字的歡迎訊息。
+
+6.如果要登出，請在導覽欄中點擊 "登出" 鏈接。
+
+# Dependencies
+* Django 4.2.11
+* Bootstrap 4.6.2
+* jQuery 3.5.1
+
+
 ## Language
 
 
-![Java progressbar](https://readme-components.vercel.app/api?component=linearprogress&value=100&skill=Java&fill=linear-gradient%2862deg%2C%20%238EC5FC%200%25%2C%20%23E0C3FC%20100%25%29%3B%0A)
+![Python(Django) progressbar](https://readme-components.vercel.app/api?component=linearprogress&value=70&skill=Python(Django)&fill=linear-gradient%2862deg%2C%20%238EC5FC%200%25%2C%20%23E0C3FC%20100%25%29%3B%0A)
+![HTML progressbar](https://readme-components.vercel.app/api?component=linearprogress&value=10&skill=HTML&fill=linear-gradient%2862deg%2C%20%238EC5FC%200%25%2C%20%23E0C3FC%20100%25%29%3B%0A)
+![CSS progressbar](https://readme-components.vercel.app/api?component=linearprogress&value=5&skill=CSS&fill=linear-gradient%2862deg%2C%20%238EC5FC%200%25%2C%20%23E0C3FC%20100%25%29%3B%0A)
+![Bootstrap progressbar](https://readme-components.vercel.app/api?component=linearprogress&value=10&skill=JavaScript&fill=linear-gradient%2862deg%2C%20%238EC5FC%200%25%2C%20%23E0C3FC%20100%25%29%3B%0A)
+![Bootstrap progressbar](https://readme-components.vercel.app/api?component=linearprogress&value=5&skill=Bootstap&fill=linear-gradient%2862deg%2C%20%238EC5FC%200%25%2C%20%23E0C3FC%20100%25%29%3B%0A)
 
 
